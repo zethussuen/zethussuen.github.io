@@ -30,10 +30,19 @@
     list-style-type: none;
     margin: 8px 0 40px 0;
     padding: 0;
+    counter-reset: header;
   }
 
   .nav-item {
     display: inline-block;
     margin-right: 16px;
+  }
+
+  .nav-item:before {
+    counter-increment: header;
+    content: counter(header, decimal-leading-zero);
+    color: $grey-500;
+    margin-right: 8px;
+    font-size: 14px;
   }
 }
