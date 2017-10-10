@@ -35,9 +35,11 @@
       font-size: 15px;
       line-height: 24px;
       color: $grey-400;
+      transition: all 0.25s ease-in-out;
 
       &:hover {
         color: $red-100;
+        padding-left: 4px;
       }
     }
   }
