@@ -1,17 +1,6 @@
 #header {
   margin-bottom: 24px;
 
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .col {
-    width: 50%;
-    float: left;
-  }
-
   h1 {
     font-size: 32px;
     line-height: 48px;
@@ -35,7 +24,7 @@
 
   .nav-item {
     display: inline-block;
-    margin-right: 16px;
+    margin-right: 12px;
   }
 
   .nav-item:before {
@@ -44,5 +33,11 @@
     color: $grey-500;
     margin-right: 8px;
     font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  #header .header-nav .nav-item {
+    display: block;
   }
 }
