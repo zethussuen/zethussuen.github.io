@@ -4,7 +4,7 @@
   }
 
   .project-description {
-    padding: 48px 24px 24px;
+    padding: 48px 32px;
     transition: padding 0.25s ease-in-out;
   }
 
@@ -41,7 +41,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   #projects {
     .project-description {
-      padding: 32px 24px;
+      padding: 32px;
     }
 
     .description:nth-of-type(2n) {
