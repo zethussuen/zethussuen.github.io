@@ -38,6 +38,31 @@
   }
 }
 
+.project-title {
+  font-size: 20px;
+  // font-weight: 400;
+  margin-bottom: 8px;
+  color: $red-100;
+}
+
+.project-team {
+  color: $grey-400;
+}
+
+.project-description {
+  margin: 0 0 40px;
+}
+
+.grid-wrapper {
+  column-count: 3;
+  column-gap: 16px;
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   #projects {
     .project-description {
