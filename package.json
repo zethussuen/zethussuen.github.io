@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/zethussuen/zethussuen.github.io#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "node-sass": "^4.5.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^3.2.1",
+    "node-sass": "^4.10.0",
     "normalize.css": "^7.0.0"
   }
 }
